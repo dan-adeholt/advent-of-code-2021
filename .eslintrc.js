@@ -28,6 +28,7 @@ module.exports = {
     'no-bitwise': 0,
     'no-plusplus': 0,
     'no-console': 0,
+    'no-continue': 0,
     'max-len': 0,
     'import/prefer-default-export': 0
   },
