@@ -62,8 +62,5 @@ const findWinningBoard = (findLast : boolean) => {
   return 0;
 };
 
-const problem1 = () => findWinningBoard(false);
-const problem2 = () => findWinningBoard(true);
-
-console.log(problem1());
-console.log(problem2());
+export const problem1 = () => findWinningBoard(false);
+export const problem2 = () => findWinningBoard(true);

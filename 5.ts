@@ -36,8 +36,5 @@ const findOverlaps = (considerDiagonal: boolean) => {
   return counts.true;
 };
 
-const problem1 = () => findOverlaps(false);
-const problem2 = () => findOverlaps(true);
-
-console.log(problem1());
-console.log(problem2());
+export const problem1 = () => findOverlaps(false);
+export const problem2 = () => findOverlaps(true);

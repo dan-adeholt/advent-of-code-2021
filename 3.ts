@@ -1,7 +1,7 @@
 import { filter } from 'lodash-es';
 import { readLines } from './loadData';
 
-const problem1 = () => {
+export const problem1 = () => {
   const lines = readLines('3.txt');
   const numBits = lines[0].length;
   const numOnes = new Array(numBits).fill(0);
@@ -30,7 +30,7 @@ const problem1 = () => {
   return gamma * epsilon;
 };
 
-const problem2 = () => {
+export const problem2 = () => {
   const lines = readLines('3.txt');
   const numBits = lines[0].length;
 
@@ -61,6 +61,3 @@ const problem2 = () => {
   const cO2ScrubberRating = searchForValue(lines, false);
   return oxygenGeneratorRating * cO2ScrubberRating;
 };
-
-console.log(problem1());
-console.log(problem2());
