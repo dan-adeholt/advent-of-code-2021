@@ -6,13 +6,14 @@ import * as day5 from './5';
 import * as day6 from './6';
 import * as day7 from './7';
 import * as day8 from './8';
+import * as day9 from './9';
 
 type Day = {
   problem1: () => number,
   problem2: () => number,
 };
 
-const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8];
+const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8, day9];
 
 allDays.forEach((day, dayIndex) => {
   console.log(`Day ${dayIndex + 1} problem 1: ${day.problem1()}`);
