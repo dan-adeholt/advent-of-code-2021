@@ -24,11 +24,13 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
+    'object-curly-newline': 0,
     'no-restricted-syntax': 0,
     'no-bitwise': 0,
     'no-plusplus': 0,
     'no-console': 0,
     'no-continue': 0,
+    'comma-dangle': 0,
     'max-len': 0,
     'no-param-reassign': 0,
     'prefer-destructuring': 0,

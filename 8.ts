@@ -1,6 +1,4 @@
-import {
-  find, uniq, trim, sortBy, lastIndexOf, parseInt,
-} from 'lodash-es';
+import { find, uniq, trim, sortBy, lastIndexOf, parseInt } from 'lodash-es';
 import { readLines } from './loadData';
 
 const lines = readLines('8.txt');

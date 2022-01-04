@@ -1,6 +1,4 @@
-import {
-  parseInt, flatMap, max, without,
-} from 'lodash-es';
+import { parseInt, flatMap, max, without } from 'lodash-es';
 import { readLines } from './loadData';
 
 type FoldInstruction = {

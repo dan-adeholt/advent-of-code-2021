@@ -1,6 +1,4 @@
-import {
-  parseInt, some, every, range, flatMap, sum,
-} from 'lodash-es';
+import { parseInt, some, every, range, flatMap, sum } from 'lodash-es';
 import { readLines } from './loadData';
 
 type BoardNumber = {
