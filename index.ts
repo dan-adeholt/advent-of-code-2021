@@ -12,14 +12,14 @@ import * as day11 from './11';
 import * as day12 from './12';
 import * as day13 from './13';
 import * as day14 from './14';
+import * as day15 from './15';
 
 type Day = {
   problem1: () => number | string,
   problem2: () => number | string,
 };
-//
 
-const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8, day9, day10, day11, day12, day13, day14];
+const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8, day9, day10, day11, day12, day13, day14, day15];
 
 allDays.forEach((day, dayIndex) => {
   console.log(`Day ${dayIndex + 1} problem 1: ${day.problem1()}`);
