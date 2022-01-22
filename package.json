@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "eslint": "eslint *.ts --fix",
-    "solve": "esbuild index.ts --platform=node --bundle --outfile=dist/index.js && node dist/index.js"
+    "solve": "esbuild index.ts --platform=node --bundle --outfile=dist/index.js && node dist/index.js",
+    "test": "esbuild test.ts --platform=node --bundle --outfile=dist/test.js && node dist/test.js"
   },
   "dependencies": {
     "@types/lodash": "^4.14.178",
