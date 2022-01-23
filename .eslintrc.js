@@ -30,6 +30,7 @@ module.exports = {
     'no-plusplus': 0,
     'no-console': 0,
     'no-continue': 0,
+    '@typescript-eslint/no-loop-func': 0,
     'comma-dangle': 0,
     'max-len': 0,
     'no-param-reassign': 0,
