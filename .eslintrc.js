@@ -31,6 +31,7 @@ module.exports = {
     'no-console': 0,
     'no-continue': 0,
     '@typescript-eslint/no-loop-func': 0,
+    '@typescript-eslint/no-implied-eval': 0,
     'comma-dangle': 0,
     'max-len': 0,
     'no-param-reassign': 0,
