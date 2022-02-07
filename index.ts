@@ -22,13 +22,14 @@ import * as day21 from './21';
 import * as day22 from './22';
 import * as day23 from './23';
 import * as day24 from './24';
+import * as day25 from './25';
 
 type Day = {
   problem1: () => number | string,
   problem2: () => number | string,
 };
 
-const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8, day9, day10, day11, day12, day13, day14, day15, day16, day17, day18, day19, day20, day21, day22, day23, day24];
+const allDays : Day[] = [day1, day2, day3, day4, day5, day6, day7, day8, day9, day10, day11, day12, day13, day14, day15, day16, day17, day18, day19, day20, day21, day22, day23, day24, day25];
 
 allDays.forEach((day, dayIndex) => {
   let t0 = performance.now();
